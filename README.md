@@ -7,8 +7,8 @@ In this lab, This project analyzes sentiment in tweets using GPT-2 and RoBERTa, 
 
 ## Deliverables
 - [x] Successfully start a local Zeno server on the dataset provided, with metrics and model predictions
-- [x] Create 5 slices in the Zeno interface, derive meaningful insights and showcase them to the TA
-- [x] Write down 3 additional slices you want to create and successfully generate 10 examples for one selected slice
+- [x] Created 5 slices in the Zeno interface,  and derived meaningful insights.
+- [x] Created 3 additional slices, and successfully generated 10 examples for one selected slice.
 
 
 ## Getting started
@@ -20,10 +20,10 @@ In this lab, This project analyzes sentiment in tweets using GPT-2 and RoBERTa, 
 - pip install zenoml datasets transformers tqdm
 
 ## Code related details
-- Finish all 7 steps mentioned in the python notebook
-- If you have trouble downloading the datasets and/or running model inference, use `tweets.csv` shared in the folder
-- If you have trouble starting a local Zeno server, copy the code in `zenohub.py` to the notebook and follow the steps
-- If you have trouble using the GPTs provided, use plain ChatGPT for test case generation
+- Finished all 7 steps mentioned in the python notebook
+- I have loaded a dataset from HuggingFace.
+- I havew used `zenohub.py` for starting a local Zeno server.
+- Used provided GPTs to start the task: llm-based-test-case-generator -- for test case generation
 
 |Slice Name	               |                             Purpose                                    |
 |--------------------------|--------------------------------------------------------------          |  
