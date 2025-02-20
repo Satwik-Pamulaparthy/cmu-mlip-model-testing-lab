@@ -34,6 +34,6 @@ High Model Disagreement	        Captures tweets where GPT-2 and RoBERTa give dif
 
 
 Key Observations
-- [x]RoBERTa consistently outperforms GPT-2, especially for longer tweets (70% vs. 37% accuracy).
-- [x]GPT-2 struggles with sarcasm and negation (e.g., "I don’t hate it" misclassified as negative).
-- [x]Questions and ambiguous tweets lead to higher misclassification rates in both models.
+- [x] RoBERTa consistently outperforms GPT-2, especially for longer tweets (70% vs. 37% accuracy).
+- [x] GPT-2 struggles with sarcasm and negation (e.g., "I don’t hate it" misclassified as negative).
+- [x] Questions and ambiguous tweets lead to higher misclassification rates in both models.
