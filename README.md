@@ -25,12 +25,13 @@ In this lab, This project analyzes sentiment in tweets using GPT-2 and RoBERTa, 
 - If you have trouble starting a local Zeno server, copy the code in `zenohub.py` to the notebook and follow the steps
 - If you have trouble using the GPTs provided, use plain ChatGPT for test case generation
 
-Slice Name	                                            Purpose
-Tweets with Hashtags	                  Tests model performance on trending topics.
-Strong Positive Words	        Checks if models over-rely on specific words like ‘love’ or ‘great’.
-Very Long Tweets	                    Evaluates sentiment retention over longer contexts.
-Tweets with Questions	            Tests if models struggle with rhetorical vs. factual questions.
-High Model Disagreement	        Captures tweets where GPT-2 and RoBERTa give different predictions.
+|Slice Name	               |                             Purpose                                    |
+|--------------------------|--------------------------------------------------------------          |  
+|Tweets with Hashtags	     |            Tests model performance on trending topics.                 |
+|Strong Positive Words	   |   Checks if models over-rely on specific words like ‘love’ or ‘great’. |
+|Very Long Tweets	         |          Evaluates sentiment retention over longer contexts.           |
+|Tweets with Questions	   |      Tests if models struggle with rhetorical vs. factual questions.   |
+|High Model Disagreement	 |     Captures tweets where GPT-2 and RoBERTa give different predictions.|
 
 
 Key Observations
